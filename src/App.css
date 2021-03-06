@@ -1,0 +1,57 @@
+.users-container {
+  display: flex;
+}
+
+.users-list {
+  list-style: none;
+}
+
+.users-list-item {
+  padding: 10px;
+  cursor: pointer;
+
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.users-list-item:first-of-type {
+  border-top: 1px solid;
+}
+
+.users-list-item:last-of-type {
+  border-bottom: 1px solid;
+}
+
+.details-container {
+  margin-left: 20px;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.detail {
+  padding: 10px;
+
+  border: 1px solid;
+}
+
+.detail:nth-of-type(n + 2) {
+  border-top: none;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.avatar {
+  height: 250px;
+  min-width: 150px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
