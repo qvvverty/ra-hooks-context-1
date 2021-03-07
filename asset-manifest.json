@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ra-hooks-context-1/static/css/main.a5c8f0d7.chunk.css",
+    "main.js": "/ra-hooks-context-1/static/js/main.0413d17a.chunk.js",
+    "main.js.map": "/ra-hooks-context-1/static/js/main.0413d17a.chunk.js.map",
+    "runtime-main.js": "/ra-hooks-context-1/static/js/runtime-main.d00f57be.js",
+    "runtime-main.js.map": "/ra-hooks-context-1/static/js/runtime-main.d00f57be.js.map",
+    "static/js/2.b63628f6.chunk.js": "/ra-hooks-context-1/static/js/2.b63628f6.chunk.js",
+    "static/js/2.b63628f6.chunk.js.map": "/ra-hooks-context-1/static/js/2.b63628f6.chunk.js.map",
+    "static/js/3.348a1550.chunk.js": "/ra-hooks-context-1/static/js/3.348a1550.chunk.js",
+    "static/js/3.348a1550.chunk.js.map": "/ra-hooks-context-1/static/js/3.348a1550.chunk.js.map",
+    "index.html": "/ra-hooks-context-1/index.html",
+    "static/css/main.a5c8f0d7.chunk.css.map": "/ra-hooks-context-1/static/css/main.a5c8f0d7.chunk.css.map",
+    "static/js/2.b63628f6.chunk.js.LICENSE.txt": "/ra-hooks-context-1/static/js/2.b63628f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d00f57be.js",
+    "static/js/2.b63628f6.chunk.js",
+    "static/css/main.a5c8f0d7.chunk.css",
+    "static/js/main.0413d17a.chunk.js"
+  ]
+}
