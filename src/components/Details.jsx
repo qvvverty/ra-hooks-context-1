@@ -1,15 +1,13 @@
 import { useEffect, useState } from 'react';
+import fetchData from './lib/fetchData';
 
-export default function Details(props) {
+export default function Details({ setLoading, ...props }) {
   const [selectedUserData, setUserData] = useState({});
 
   useEffect(() => {
     if (!props.selectedUserId) return;
-
-    fetch(process.env.REACT_APP_USER_DATA + props.selectedUserId + '.json')
-      .then(response => response.json())
-      .then(setUserData);
-  }, [props.selectedUserId]);
+    fetchData(process.env.REACT_APP_USER_DATA + props.selectedUserId + '.json', setUserData, setLoading);
+  }, [props.selectedUserId, setLoading]);
 
   if (!Object.keys(selectedUserData).length) return null;
 

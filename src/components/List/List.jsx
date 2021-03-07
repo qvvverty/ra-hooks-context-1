@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react';
 import ListItem from './ListItem';
+import fetchData from '../lib/fetchData';
 
-export default function List(props) {
+export default function List({ setLoading, ...props }) {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch(process.env.REACT_APP_USERS_LIST)
-      .then(response => response.json())
-      .then(setUsers);
-  }, []);
+    fetchData(process.env.REACT_APP_USERS_LIST, setUsers, setLoading);
+  }, [setLoading]);
 
   return (
     <ul className="users-list">
